@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"> 
+    <!-- CSS Linking -->
+    <link rel="stylesheet" href="assets/portfolio.css">
+    <title>Personal Portfolio Web Page | Projects & Skills</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="brand-logo">GeigerTech</a>
+            <!-- FIX: Changed nav_menu to nav-menu (hyphen) -->
+            <nav class="nav-menu">
+                <a href="#hero">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Introduction Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <span class="badge fade-in-down">Backend Developer (RESTful APIs & Node.js)</span>
+                <h1 class="fade-in">Hi, I'm <span class="highlight">Gilbert Akhagbemhe</span></h1>
+                <p class="subtitle fade-in-up">I build RESTful APIs using Node.js & Express and I also make modern day websites for clients.</p>
+                <div class="hero-actions fade-in-up">
+                    <a href="#projects" class="btn-primary">View My Projects</a>
+                    <a href="#contact" class="btn-secondary">Contact Me</a>
+                </div>
+            </div>            
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Backend Development</h3>
+                        <div class="skill-tags">
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>REST APIs</span>
+                            <span>Authentication & Authorization</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Databases</h3>
+                        <div class="skill-tags">
+                            <span>MongoDB</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Front End & Tools</h3>
+                        <div class="skill-tags">
+                            <span>Postman</span>
+                            <span>HTML5 & CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Git & GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Showcase Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-header">
+                            <span class="project-tag">API & Database</span>
+                            <h3>Property Listing App</h3>
+                        </div>
+                        <p class="project-description">
+                            A multi-role RESTful API built with Node.js, Express.js, JWT Authentication & Authorization that handles user & property owners creation for listing and searching for available homes, land, hotel & condos.
+                        </p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Gil210/Property-Listing-App-Backend" target="_blank" class="project-link">GitHub Repo &rarr;</a>       
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Information Section -->
+        <section id="contact" class="contact-section">
+            <div class="container contact-container">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="contact-subtext">Currently open for freelance projects, API engineering opportunities, and developer collaborations.</p>
+                <div class="contact-cards">
+                    <a href="mailto:onakhegilbert@gmail.com" class="contact-card">
+                        <span class="contact-icon">✉</span>
+                        <div>
+                            <h4>Email Me:</h4>
+                            <p>onakhegilbert@gmail.com</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/Gil210" target="_blank" class="contact-card">
+                        <span class="contact-icon">💻</span>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p>github.com/Gil210</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
