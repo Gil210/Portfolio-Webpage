@@ -351,4 +351,26 @@ body {
     .nav-menu { display: none; } /* Can be expanded into a mobile menu toggle */
 }
 
+/* --- Mobile Responsive Navigation (HTML & CSS Only) --- */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column; /* Stacks < GeigerTech /> on top, buttons underneath */
+        align-items: center;    /* Centers both rows horizontally */
+        gap: 12px;              /* Space between the logo and the buttons */
+        padding: 12px 16px;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-wrap: wrap;        /* Allows buttons to wrap cleanly if a phone is extra narrow */
+        justify-content: center;
+        gap: 8px;               /* Tighter gap so all 4 buttons fit side-by-side */
+        width: 100%;
+    }
+
+    .nav-menu a {
+        padding: 6px 12px;      /* Compact padding for smaller screens */
+        font-size: 0.85rem;
+    }
+}
 
